@@ -1,15 +1,12 @@
 package com.example.mockitoannotation;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import javax.print.attribute.standard.MediaSize;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class SimpleObjectMockTest {
+class D_SimpleObjectMockTest {
 
     private SimpleObject simpleObject = mock(SimpleObject.class);
 
